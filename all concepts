@@ -1,12 +1,14 @@
 #include <iostream>
 #include <fstream>
 #include <stdio.h>
-using namespace std;
+using namespace std ;
 class Student
 {
     char name[30];
     int rollNo;
     int total;
+
+
 
 public:
     void input(void)
